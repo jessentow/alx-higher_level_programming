@@ -8,12 +8,12 @@
 
 
 def fizzbuzz():
-    for digit in range(1, 101):
-        if digit % 3 == 0 and digit % 5 == 0:
+    for number in range(1, 101):
+        if number % 3 == 0 and number % 5 == 0:
             print("FizzBuzz ", end="")
-    elif digit % 3 == 0:
-        print("Fizz ", end="")
-    elif digit % 5 == 0:
-        print("Buzz ", end="")
-    else:
-        print("{} ".format(digit), end="")
+        elif number % 3 == 0:
+            print("Fizz ", end="")
+        elif number % 5 == 0:
+            print("Buzz ", end="")
+        else:
+            print("{} ".format(number), end="")
