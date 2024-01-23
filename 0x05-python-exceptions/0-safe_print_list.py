@@ -1,11 +1,11 @@
 #!/usr/bin/python3
 def safe_print_list(my_list=[], x=0):
-    jes = 0
-    for a in range(x):
+    turn = 0
+    for e in range(x):
         try:
-            print("{}".format(my_list[a]), end="")
-            jes += 1
+            print("{}".format(my_list[e]), end="")
+            turn += 1
         except IndexError:
             break
     print("")
-    return (jes)
+    return (turn)
