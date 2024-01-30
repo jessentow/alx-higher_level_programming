@@ -4,7 +4,7 @@
 
 
 class Square:
-    """This represent a square."""
+    """Represent a square."""
 
     def __init__(self, size=0, position=(0, 0)):
         """Initialize a new square.
@@ -17,7 +17,7 @@ class Square:
         self.position = position
 
     @property
-    def size(selif):
+    def size(self):
         """Get/set the current size of the square."""
         return (self.__size)
 
@@ -48,7 +48,7 @@ class Square:
         return (self.__size * self.__size)
 
     def my_print(self):
-        """Print the square with the # character"""
+        """Print the square with the # character."""
         if self.__size == 0:
             print("")
             return
